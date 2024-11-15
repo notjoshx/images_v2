@@ -1,5 +1,5 @@
 {
-  "Image": "quay.io/skyport/java:21",
+  "Image": "quay.io/notjoshx/java:21",
   "Cmd": "",
   "Env": [
     "START=java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar"
@@ -11,7 +11,7 @@
         "Path": "server.jar"
       },
       {
-        "Uri": "https://raw.githubusercontent.com/skyportlabs/images_v2/main/spigotmc/server.properties",
+        "Uri": "https://raw.githubusercontent.com/notjoshx/images_v2/main/spigotmc/server.properties",
         "Path": "server.properties"
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "Image": "quay.io/notjoshx/java:21",
+  "Image": "ghcr.io/notjoshx/java:latest",
   "Cmd": "",
   "Env": [
     "START=java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar"

@@ -1,5 +1,5 @@
 {
-  "Image": "ghcr.io/notjoshx/java:latest",
+  "Image": "ghcr.io/pterodactyl/yolks:java_21",
   "Cmd": "",
   "Env": [
     "START=java -Xms128M -XX:MaxRAMPercentage=95.0 -Dterminal.jline=false -Dterminal.ansi=true -jar server.jar"
